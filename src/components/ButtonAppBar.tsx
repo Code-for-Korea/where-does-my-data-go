@@ -15,7 +15,7 @@ export default function ButtonAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            Where does my data go?
           </Typography>
           <IconButton
             size="large"

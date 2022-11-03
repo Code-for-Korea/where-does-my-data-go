@@ -38,7 +38,7 @@ export default function Drawer() {
         onKeyDown={toggleDrawer(false)}
       >
         <List>
-          <DialogTitle>Where does my data go</DialogTitle>
+          <DialogTitle>Where does my data go?</DialogTitle>
           {["Home", "개인정보수집", "쿠키", "정보유출", "프로젝트F"].map(
             (text, index) => (
               <ListItem key={text} disablePadding>

@@ -39,7 +39,7 @@ export default function Drawer() {
       >
         <List>
           <DialogTitle>Where does my data go?</DialogTitle>
-          {["Home", "개인정보수집", "쿠키", "정보유출", "프로젝트F"].map(
+          {["Home", "개인정보수집", "쿠키", "정보유출", "프로젝트"].map(
             (text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>

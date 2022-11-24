@@ -12,8 +12,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename:
-      process.env.NODE_ENV === "production" ? "/where-does-my-data-go" : "",
+    basename: "/where-does-my-data-go",
   }
 );
 const root = ReactDOM.createRoot(

@@ -1,5 +1,6 @@
 import { Paper, Typography } from "@mui/material";
 import useGoogleSheets from "use-google-sheets";
+import CountUp from "react-countup";
 export default function LeakedStats() {
   return (
     <Paper
@@ -29,7 +30,11 @@ function Stats() {
     <div>
       <Typography variant="h6">{Object.keys(leakedData).join("")}</Typography>
       <Typography variant="h4" sx={{ pt: 1 }}>
-        {Object.values(leakedData).join("")}건
+        <CountUp
+          separator=","
+          end={parseInt(Object.values(leakedData)[0].replaceAll(",", ""))}
+        />
+        건
       </Typography>
     </div>
   );

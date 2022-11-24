@@ -1,10 +1,15 @@
 import { Box, Container, Typography } from "@mui/material";
-import ex1 from "../assets/images/ex1.png";
+import useScript from "./useScript";
+
 export default function LeaksChart() {
+  useScript("https://public.flourish.studio/resources/embed.js");
   return (
     <Container sx={{ my: 6 }}>
       <Box mb={6}>
-        <img src={ex1} alt="ex1" style={{ width: "100%" }} />
+        <div
+          className="flourish-embed flourish-network"
+          data-src="visualisation/11936083"
+        ></div>
       </Box>
       <Typography variant="body1">
         온라인 쇼핑몰이나, 카카오톡, 기프티콘, 콘텐츠를 보기 위해 온라인

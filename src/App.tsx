@@ -5,6 +5,7 @@ import {
 } from "@mui/material/styles";
 import LeaksChart from "./components/LeaksChart";
 import LeakedStats from "./components/LeakedStats";
+import ThirdParty from "./components/ThirdParty";
 const theme = extendTheme({
   colorSchemes: {
     light: {
@@ -23,6 +24,7 @@ function App() {
       <ButtonAppBar />
       <LeaksChart />
       <LeakedStats />
+      <ThirdParty />
     </CssVarsProvider>
   );
 }

@@ -4,17 +4,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-const router = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element: <App />,
-    },
-  ],
+const router = createBrowserRouter([
   {
-    basename: "/where-does-my-data-go",
-  }
-);
+    path: "/",
+    element: <App />,
+  },
+]);
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );

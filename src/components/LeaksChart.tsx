@@ -2,8 +2,8 @@ import { Box, Container, Typography } from "@mui/material";
 import ex1 from "../assets/images/ex1.png";
 export default function LeaksChart() {
   return (
-    <Container>
-      <Box my={6}>
+    <Container sx={{ my: 6 }}>
+      <Box mb={6}>
         <img src={ex1} alt="ex1" style={{ width: "100%" }} />
       </Box>
       <Typography variant="body1">

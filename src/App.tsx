@@ -1,13 +1,27 @@
-import React from "react";
 import ButtonAppBar from "./components/ButtonAppBar";
-import Drawer from "./components/Drawer";
+import {
+  Experimental_CssVarsProvider as CssVarsProvider,
+  experimental_extendTheme as extendTheme,
+} from "@mui/material/styles";
+import LeaksChart from "./components/LeaksChart";
+const theme = extendTheme({
+  colorSchemes: {
+    light: {
+      palette: {
+        primary: {
+          main: "#3F1475",
+        },
+      },
+    },
+  },
+});
 
 function App() {
   return (
-    <div className="App">
+    <CssVarsProvider theme={theme}>
       <ButtonAppBar />
-      <Drawer />
-    </div>
+      <LeaksChart />
+    </CssVarsProvider>
   );
 }
 

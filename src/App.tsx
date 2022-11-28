@@ -6,6 +6,7 @@ import {
 import LeaksChart from "./components/LeaksChart";
 import LeakedStats from "./components/LeakedStats";
 import ThirdParty from "./components/ThirdParty";
+import Parallax from "./components/Parallax";
 const theme = extendTheme({
   colorSchemes: {
     light: {
@@ -22,6 +23,7 @@ function App() {
   return (
     <CssVarsProvider theme={theme}>
       <ButtonAppBar />
+      <Parallax />
       <LeaksChart />
       <LeakedStats />
       <ThirdParty />

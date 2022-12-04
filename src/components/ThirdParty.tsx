@@ -3,15 +3,7 @@ import { Box, Container, Divider, Typography } from "@mui/material";
 export default function ThirdParty() {
   return (
     <Container sx={{ my: 6 }}>
-      <Typography variant="body1">
-        <a
-          href="https://docs.google.com/spreadsheets/d/1JoWXemxTDbMSsSMJrWOZylYBXePxSy_-21jmeeDEKtM/view#gid=1519454052"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {">"} 계열사/제3자 정보 제공 데이터 살펴보기
-        </a>
-      </Typography>
+    
       <Typography variant="h6" sx={{ mt: 4 }}>
         <b>이용약관을 통한 개인정보 수집</b>
       </Typography>

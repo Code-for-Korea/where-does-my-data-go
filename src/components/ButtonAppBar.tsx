@@ -9,7 +9,7 @@ export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar sx={{ height: 100 }}>
           <Grid container direction="column">
             <Grid container justifyContent="center">
               <Typography variant="h6">Where Does My Data GO?</Typography>

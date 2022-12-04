@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Container, Divider, Paper, styled, Typography } from "@mui/material";
+import { Container, Divider, styled, Typography } from "@mui/material";
 import { select } from "d3-selection";
 import { scaleBand, scaleLinear, scaleOrdinal } from "d3-scale";
 import {
@@ -11,7 +11,6 @@ import {
 } from "d3-force";
 import { schemeTableau10 } from "d3-scale-chromatic";
 import { parse } from "papaparse";
-import CountUp from "react-countup";
 
 const DATA_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vSOCrYS0ebaKSohdzgBTQ60Ndmwi1M6LqXFRkge-nI3GY7DtxIpSQUt8k3Z5EWBGdI3uqk2WCIFnzyx/pub?gid=928498616&single=true&output=csv";

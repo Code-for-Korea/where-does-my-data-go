@@ -1,5 +1,4 @@
 import { Container, Typography } from "@mui/material";
-import LeakedStats from "./LeakedStats";
 
 export default function ThirdParty() {
   return (

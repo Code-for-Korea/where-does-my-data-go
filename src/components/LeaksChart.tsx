@@ -8,10 +8,10 @@ export default function LeaksChart() {
       <Box mb={6}>
         <div
           className="flourish-embed flourish-network"
-          data-src="visualisation/11936083"
+          data-src="visualisation/12045451"
         ></div>
       </Box>
-     
+
       <Typography variant="h6" sx={{ mt: 6 }}>
         <b>개인정보 계열사/제3자 정보 제공</b>
       </Typography>

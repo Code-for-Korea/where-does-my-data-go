@@ -22,8 +22,8 @@ export default function Parallax() {
             justifyContent="center"
             sx={{ textAlign: "center" }}
           >
-            <Typography variant="h6">개인정보유출 신고/사건수</Typography>
-            <Typography variant="h4">
+            <Typography variant="h5">개인정보유출 신고/사건수</Typography>
+            <Typography variant="h2" sx={{ fontWeight: "bold" }}>
               <CountUp end={1713101} separator="," />건
             </Typography>
             <Typography variant="h6">(2000~2022.10. e나라지표 자료)</Typography>

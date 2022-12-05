@@ -16,7 +16,7 @@ export default function ButtonAppBar() {
             </Grid>
             <Grid container justifyContent="center">
               <Typography variant="caption">
-                당신의 정보는 어떻게, 어디까지 흘러가고 있는지 아십니까?
+                당신의 정보가 어떻게, 어디까지 흘러가고 있는지 아십니까?
               </Typography>
             </Grid>
           </Grid>

@@ -7,12 +7,12 @@ export default function ThirdParty() {
         <b>Where Does My Data Go?</b>
       </Typography>
       <Typography variant="body1">
-        ✏️ Where Does My Data GO? 는 온라인 서비스 제공사들이 개인정보를 얼마나
+        Where Does My Data GO? 는 온라인 서비스 제공사들이 개인정보를 얼마나
         수집하고 이를 활용하고 있는지, 개인정보 유출사고로 노출된 개인정보는
         어느정도인지 데이터를 시각화하는 프로젝트입니다.
       </Typography>
       <Typography variant="body1" sx={{ my: 3 }}>
-        ✏️ 프로젝트 그룹 ‘‘데이터유괴단'
+        프로젝트 그룹 ‘‘데이터유괴단'
       </Typography>
       <Typography variant="body1">
         ‘데이터유괴단’은 데이터 시각화를 통해 일반 시민들이 정보를 쉽게 접하고

@@ -31,7 +31,6 @@ function App() {
       <Terms />
       <Events />
       <LeakedStats />
-      <ThirdParty />
       <Footer />
     </CssVarsProvider>
   );

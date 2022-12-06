@@ -4,7 +4,6 @@ import {
   experimental_extendTheme as extendTheme,
 } from "@mui/material/styles";
 import LeaksChart from "./components/LeaksChart";
-import ThirdParty from "./components/ThirdParty";
 import Parallax from "./components/Parallax";
 import Terms from "./components/Terms";
 import Events from "./components/Events";

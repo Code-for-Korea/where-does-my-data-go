@@ -226,7 +226,7 @@ function Stats() {
 
 export default function LeakedStats() {
   return (
-    <Container sx={{ pb: 10 }}>
+    <Container sx={{ pb: 6 }}>
       <Typography variant="body1" sx={{ mb: 2 }}>
         e나라지표에서 발표한, 개인정보유출과 관련한 상담/사건 데이터를 보면
         매년 그 사례와 건수가 늘어나고 있는 추세입니다. 상담/사건 건수는
@@ -244,8 +244,9 @@ export default function LeakedStats() {
         하였습니다. 2020년 이후의 데이터는 아래 더보기링크나 e나라지표 사이트를
         확인해주세요.
       </Typography>
-      <Button variant="contained" color="error" size="large" href='https://docs.google.com/spreadsheets/d/1JoWXemxTDbMSsSMJrWOZylYBXePxSy_-21jmeeDEKtM/view#gid=595892600' target="_blank" sx={{ mt: 2 }}>
+      <Button variant="outlined" color="primary" size="large" href='https://docs.google.com/spreadsheets/d/1JoWXemxTDbMSsSMJrWOZylYBXePxSy_-21jmeeDEKtM/view#gid=595892600' target="_blank" sx={{ mt: 2 }}>
         개인정보유출 상담/사고 유형별 데이터 살펴보기
+        &raquo;
       </Button>
     </Container>
   );

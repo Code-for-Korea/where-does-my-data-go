@@ -19,8 +19,6 @@ export default function Parallax() {
           <Grid
             container
             direction="column"
-            justifyContent="center"
-            sx={{ textAlign: "center" }}
           >
             <Typography variant="h5">개인정보유출 신고/사건수</Typography>
             <Typography variant="h2" sx={{ fontWeight: "bold" }}>
@@ -28,7 +26,7 @@ export default function Parallax() {
             </Typography>
             <Typography variant="h6">(2000~2022.10. e나라지표 자료)</Typography>
           </Grid>
-          <Typography variant="body1" sx={{ pt: 10 }}>
+          <Typography variant="body1" sx={{ pt: 6 }}>
             온라인 쇼핑몰이나, 카카오톡, 기프티콘, 콘텐츠를 보기 위해 온라인
             서비스를 가입하려면 매번 눈에 띄는것이 법률적인 내용이 작은글씨로
             화면 가득히 담긴 ‘이용약관'과 ‘개인정보처리 방침'입니다. 혹시 이

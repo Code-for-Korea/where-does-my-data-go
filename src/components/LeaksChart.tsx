@@ -5,7 +5,7 @@ import useScript from "./useScript";
 export default function LeaksChart() {
   useScript("https://public.flourish.studio/resources/embed.js");
   return (
-    <Container sx={{ py: 10 }}>
+    <Container sx={{ py: 6 }}>
       <Typography variant="h5">
         <b>개인정보 계열사/제3자 정보 제공</b>
       </Typography>
@@ -15,14 +15,14 @@ export default function LeaksChart() {
         다른 기업에 제공한다는 내용은 익히 알고있는 사실입니다. 그럼 주요
         서비스들이 여러분의 개인정보를 제공하는 기업 수는 얼마나 될까요?
       </Typography>
-      <Box mb={6} border={1} sx={{ borderColor: grey[400] }}>
+      <Box mb={2} border={1} sx={{ borderColor: grey[400] }}>
         <div
           className="flourish-embed flourish-network"
           data-src="visualisation/12045451"
         ></div>
       </Box>
 
-      <Button variant="contained" color="error" size="large" href='https://docs.google.com/spreadsheets/d/1JoWXemxTDbMSsSMJrWOZylYBXePxSy_-21jmeeDEKtM/view#gid=1519454052' target="_blank" sx={{ mt: 2 }}>
+      <Button variant="outlined" color="primary" size="large" href='https://docs.google.com/spreadsheets/d/1JoWXemxTDbMSsSMJrWOZylYBXePxSy_-21jmeeDEKtM/view#gid=1519454052' target="_blank" sx={{ mt: 2 }}>
         계열사/제3자 정보 제공 데이터 살펴보기
       </Button>
     </Container>

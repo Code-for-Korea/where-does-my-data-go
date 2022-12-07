@@ -5,12 +5,11 @@ export default function Footer() {
     <Paper
       sx={{
         backgroundColor: "primary.main",
-        padding: 5,
         color: "common.white",
         borderRadius: 0,
       }}
     >
-      <Container>
+      <Container sx={{ py: 6 }}>
         <Typography variant="h5" sx={{ mb: 1 }}>
           <b>Where Does My Data Go?</b>
         </Typography>

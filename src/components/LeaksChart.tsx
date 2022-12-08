@@ -1,9 +1,7 @@
 import { Box, Container, Typography, Button } from "@mui/material";
-import { grey } from '@mui/material/colors';
-import useScript from "./useScript";
+import { grey } from "@mui/material/colors";
 
 export default function LeaksChart() {
-  useScript("https://public.flourish.studio/resources/embed.js");
   return (
     <Container sx={{ py: 6 }}>
       <Typography variant="h5">
@@ -22,7 +20,14 @@ export default function LeaksChart() {
         ></div>
       </Box>
 
-      <Button variant="outlined" color="primary" size="large" href='https://docs.google.com/spreadsheets/d/1JoWXemxTDbMSsSMJrWOZylYBXePxSy_-21jmeeDEKtM/view#gid=1519454052' target="_blank" sx={{ mt: 2 }}>
+      <Button
+        variant="outlined"
+        color="primary"
+        size="large"
+        href="https://docs.google.com/spreadsheets/d/1JoWXemxTDbMSsSMJrWOZylYBXePxSy_-21jmeeDEKtM/view#gid=1519454052"
+        target="_blank"
+        sx={{ mt: 2 }}
+      >
         계열사/제3자 정보 제공 데이터 살펴보기
       </Button>
     </Container>

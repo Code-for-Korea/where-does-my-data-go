@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Container, styled, Typography, Button, Box } from "@mui/material";
-import { grey } from '@mui/material/colors';
+import { grey } from "@mui/material/colors";
 import { select } from "d3-selection";
 import { scaleBand, scaleLinear, scaleOrdinal } from "d3-scale";
 import {
@@ -228,15 +228,19 @@ export default function LeakedStats() {
   return (
     <Container sx={{ pb: 6 }}>
       <Typography variant="body1" sx={{ mb: 2 }}>
-        e나라지표에서 발표한, 개인정보유출과 관련한 상담/사건 데이터를 보면
-        매년 그 사례와 건수가 늘어나고 있는 추세입니다. 상담/사건 건수는
-        년도별로 줄거나 늘어났지만, 평균43.36%가 증가하였습니다.  특히 타인의
-        정보도용과 통신망법 이외 사례들이 최근에 급증하고 있는 추세를 볼 수
-        있습니다. 그 밖에 과도한 정보 수집이나, 범위를 넘어선 개인정보의 이용
-        사건도 지속적으로 발생하고 있습니다.
+        e나라지표에서 발표한, 개인정보유출과 관련한 상담/사건 데이터를 보면 매년
+        그 사례와 건수가 늘어나고 있는 추세입니다. 상담/사건 건수는 년도별로
+        줄거나 늘어났지만, 평균43.36%가 증가하였습니다.  특히 타인의 정보도용과
+        통신망법 이외 사례들이 최근에 급증하고 있는 추세를 볼 수 있습니다. 그
+        밖에 과도한 정보 수집이나, 범위를 넘어선 개인정보의 이용 사건도
+        지속적으로 발생하고 있습니다.
       </Typography>
+
       <Box mb={6} border={1} sx={{ borderColor: grey[400] }}>
-        <Stats />
+        <div
+          className="flourish-embed flourish-chart"
+          data-src="visualisation/12041716"
+        />
       </Box>
       <Typography variant="body1">
         ※ 2020년8월에 개인정보보호법을 근거로 통계항목이 변경되어 이전
@@ -244,9 +248,15 @@ export default function LeakedStats() {
         하였습니다. 2020년 이후의 데이터는 아래 더보기링크나 e나라지표 사이트를
         확인해주세요.
       </Typography>
-      <Button variant="outlined" color="primary" size="large" href='https://docs.google.com/spreadsheets/d/1JoWXemxTDbMSsSMJrWOZylYBXePxSy_-21jmeeDEKtM/view#gid=595892600' target="_blank" sx={{ mt: 2 }}>
-        개인정보유출 상담/사고 유형별 데이터 살펴보기
-        &raquo;
+      <Button
+        variant="outlined"
+        color="primary"
+        size="large"
+        href="https://docs.google.com/spreadsheets/d/1JoWXemxTDbMSsSMJrWOZylYBXePxSy_-21jmeeDEKtM/view#gid=595892600"
+        target="_blank"
+        sx={{ mt: 2 }}
+      >
+        개인정보유출 상담/사고 유형별 데이터 살펴보기 &raquo;
       </Button>
     </Container>
   );

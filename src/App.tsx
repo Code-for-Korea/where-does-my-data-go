@@ -9,6 +9,7 @@ import Terms from "./components/Terms";
 import Events from "./components/Events";
 import LeakedStats from "./components/LeakedStats";
 import Footer from "./components/Footer";
+import useScript from "./components/useScript";
 const theme = extendTheme({
   colorSchemes: {
     light: {
@@ -22,6 +23,7 @@ const theme = extendTheme({
 });
 
 function App() {
+  useScript("https://public.flourish.studio/resources/embed.js");
   return (
     <CssVarsProvider theme={theme}>
       <ButtonAppBar />

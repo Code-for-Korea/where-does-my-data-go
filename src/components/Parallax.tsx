@@ -18,7 +18,7 @@ export default function Parallax() {
         >
           <Grid container direction="column">
             <Typography variant="h5">역대 개인정보 유출 건수</Typography>
-            <Typography variant="h2" sx={{ fontWeight: "bold" }}>
+            <Typography variant="h3" sx={{ fontWeight: "bold" }}>
               <CountUp end={437871245} separator="," />건
             </Typography>
             <Typography variant="h6">(2005~2022, 주요 유출 사례)</Typography>

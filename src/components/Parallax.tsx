@@ -16,15 +16,12 @@ export default function Parallax() {
             py: 10,
           }}
         >
-          <Grid
-            container
-            direction="column"
-          >
-            <Typography variant="h5">개인정보유출 신고/사건수</Typography>
+          <Grid container direction="column">
+            <Typography variant="h5">역대 개인정보 유출 건수</Typography>
             <Typography variant="h2" sx={{ fontWeight: "bold" }}>
-              <CountUp end={1713101} separator="," />건
+              <CountUp end={437871245} separator="," />건
             </Typography>
-            <Typography variant="h6">(2000~2022.10. e나라지표 자료)</Typography>
+            <Typography variant="h6">(2005~2022, 주요 유출 사례)</Typography>
           </Grid>
           <Typography variant="body1" sx={{ pt: 6 }}>
             온라인 쇼핑몰이나, 카카오톡, 기프티콘, 콘텐츠를 보기 위해 온라인

@@ -21,7 +21,7 @@ export default function Events() {
         <div
           className="flourish-embed"
           data-src="visualisation/12018966"
-          data-height="1000px"
+          data-height="800px"
         />
       </Box>
       <Button

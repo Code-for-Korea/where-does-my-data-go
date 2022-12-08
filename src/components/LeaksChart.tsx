@@ -17,7 +17,7 @@ export default function LeaksChart() {
         <div
           className="flourish-embed flourish-network"
           data-src="visualisation/12045451"
-          data-height="1000px"
+          data-height="800px"
         ></div>
       </Box>
 

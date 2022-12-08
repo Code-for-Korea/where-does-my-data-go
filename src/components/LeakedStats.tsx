@@ -240,7 +240,7 @@ export default function LeakedStats() {
         <div
           className="flourish-embed flourish-chart"
           data-src="visualisation/12041716"
-          data-height="1000px"
+          data-height="600px"
         />
       </Box>
       <Typography variant="body1">
